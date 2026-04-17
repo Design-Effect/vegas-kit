@@ -10,7 +10,7 @@
  * (le SW vérifie le hash du HTML à chaque visite).
  */
 
-const CACHE_NAME = 'vegas-kit-v1.0.3';
+const CACHE_NAME = 'vegas-kit-v1.0.4';
 
 // Liste des fichiers à mettre en cache (pré-cache au install)
 const PRECACHE_URLS = [
