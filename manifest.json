@@ -1,0 +1,63 @@
+{
+  "name": "Vegas Kit — Marketing Pessoal",
+  "short_name": "Vegas Kit",
+  "description": "Kit de marketing pessoal Vegas Cosmetics — 640 prompts profissionais para gerar imagens com IA em menos de 15 minutos por dia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0806",
+  "theme_color": "#0A0806",
+  "lang": "pt-PT",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Prompts ChatGPT",
+      "short_name": "Prompts",
+      "description": "Gerar imagens profissionais",
+      "url": "./?tab=prompts",
+      "icons": [{ "src": "icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mensagens WhatsApp",
+      "short_name": "Mensagens",
+      "description": "Mensagens prontas a enviar",
+      "url": "./?tab=mensagens",
+      "icons": [{ "src": "icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Plano da Semana",
+      "short_name": "Plano",
+      "description": "15 minutos por dia",
+      "url": "./?tab=planning",
+      "icons": [{ "src": "icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
