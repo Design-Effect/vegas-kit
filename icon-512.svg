@@ -1,31 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#1A1410"/>
-      <stop offset="100%" stop-color="#0A0806"/>
-    </radialGradient>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E8C875"/>
-      <stop offset="50%" stop-color="#C9A84C"/>
-      <stop offset="100%" stop-color="#9B7F2E"/>
-    </linearGradient>
-  </defs>
-  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
-  <rect x="3" y="3" width="186" height="186" rx="40" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.5"/>
-  <!-- Couronne stylisée -->
-  <g transform="translate(96 96)">
-    <!-- Base couronne -->
-    <path d="M -42 8 L -38 -22 L -22 -8 L -10 -32 L 0 -10 L 10 -32 L 22 -8 L 38 -22 L 42 8 Z" 
-          fill="url(#gold)" stroke="#9B7F2E" stroke-width="1.5"/>
-    <!-- Bande inférieure -->
-    <rect x="-42" y="8" width="84" height="14" fill="url(#gold)" stroke="#9B7F2E" stroke-width="1"/>
-    <!-- Joyaux -->
-    <circle cx="0" cy="-8" r="4" fill="#1A1410"/>
-    <circle cx="-22" cy="2" r="3" fill="#1A1410"/>
-    <circle cx="22" cy="2" r="3" fill="#1A1410"/>
-    <circle cx="0" cy="15" r="2.5" fill="#1A1410"/>
-  </g>
-  <!-- Texte VEGAS -->
-  <text x="96" y="158" text-anchor="middle" fill="url(#gold)" 
-        font-family="serif" font-size="14" font-weight="700" letter-spacing="3">VEGAS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1a1410"/>
+  <text x="256" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="bold" letter-spacing="16" fill="#C9A84C" text-anchor="middle">VEGAS</text>
+  <line x1="100" y1="330" x2="180" y2="330" stroke="#8B2635" stroke-width="5"/>
+  <line x1="332" y1="330" x2="412" y2="330" stroke="#8B2635" stroke-width="5"/>
 </svg>
